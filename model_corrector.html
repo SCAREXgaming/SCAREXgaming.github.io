@@ -1,0 +1,38 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>SCAREX - Model corrector</title>
+        <meta name="viewport" content="width=device-width"/>
+        <meta charset="UTF-8"/>
+        
+        <script type="text/javascript" src="scripts/model_corrector.js"></script>
+    </head>
+    <body>
+        <table border="1">
+            <tbody>
+                <tr>
+                    <td>
+                        <p>Coller le package</p>
+                    </td>
+                    <td colspan="2">
+                        <p>Block ou entité</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="package" id="package_name" name="package_name" />
+                    </td>
+                    <td>
+                        <input type="radio" name="type" value="0" /><p>Entity / Item</p>
+                    </td>
+                    <td>
+                        <input type="radio" name="type" value="1" checked /><p>Block</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <textarea id="input" style="width: 94%; height: 500px; resize: vertical;"></textarea>
+        <input type="submit" onclick="correctModel('input', 'output', 'package_name', 'type')" /><hr />
+        <textarea id="output" style="width: 94%; height: 500px; resize: vertical;"></textarea>
+    </body>
+</html>
