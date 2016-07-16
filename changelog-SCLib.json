@@ -1,0 +1,20 @@
+{
+  "homepage": "http://github.com/SCAREXgaming/SCLib/releases",
+  "promos": {
+    "1.7.10-recommended": "1.7.10-1.2.2",
+    "1.7.10-latest": "1.7.10-1.2.2"
+  },
+  "1.7.10": {
+    "1.7.10-1.2.2": "SCAREX : 1.2.2 : - added some CoFH mods for testing - added some source files - fixed bug : the configurator from Mekanism didn\u0027t work\nSCAREX : Renaming + fixed bug",
+    "1.7.10-1.2.1": "SCAREX : Added test files\nSCAREX : Added Mekanism Testing things with jitpack.io\nSCAREX : Testing : added optional parameter when publishing\nSCAREX : Testing with install task\nSCAREX : New test",
+    "1.7.10-1.2.0": "SCAREX : -Added blocks and items lists -Added energy blocks -Added abstract item\nSCAREX : Modified version",
+    "1.7.10-1.1.2": "SCAREX : Nope",
+    "1.7.10-1.1.1": "SCAREX : Testing things of jitpack.io",
+    "1.7.10-1.1.0": "SCAREX : Added changelog again\nSCAREX : Finally added all the plugins I wanted",
+    "1.7.10-1.0.5": "SCAREX : Trying to add changelog maker",
+    "1.7.10-1.0.4": "SCAREX : ...\nSCAREX : ..\nSCAREX : Changed version",
+    "1.7.10-1.0.3": "SCAREX : still testing\nSCAREX : always testing\nSCAREX : And again\nSCAREX : no comment",
+    "1.7.10-1.0.1": "SCAREX : Added gradle wrapper",
+    "1.7.10-1.0.0": "SCAREX : First commit\nSCAREX : Modified changelog"
+  }
+}
